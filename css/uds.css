@@ -1,0 +1,373 @@
+html, body, h1, form, fieldset, legend, ul, ol, li, header, table, iframe
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  /*http://codepen.io/msurguy/pen/sbIio*/
+  background:
+  radial-gradient(black 0.1%, transparent 5%) 0 0,
+  radial-gradient(black 0.1%, transparent 5%) 8px 8px,
+  radial-gradient(#424242 0.1%, transparent 7%) 0 1px,
+  radial-gradient(#424242 0.1%, transparent 7%) 8px 9px;
+  background-color:#FAFAFA;
+  background-size:16px 16px;
+  color: #111111;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  /*font-family:sans-serif;*/
+  font-family: Helvetica,FreeSans,sans-serif;
+  padding: 0px;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  font-size: 16px;
+  font-weight:400;
+  font-style:normal;
+  color:#2E2E2E;
+  line-height:1;
+  position:relative;
+  cursor:auto;
+}
+
+input:invalid
+{
+  background-color: #F0DDDD;
+  border-color: #e88;
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+  -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -o-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -ms-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}
+
+input:required
+{
+  border-color: #88a;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -ms-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+/*****************************************************************************/
+/*  MAIN BLOCKS */
+/*****************************************************************************/
+
+header
+{
+  display: flex;
+  align-items: center;
+  background: #0B3861;
+  text-align: center;
+  height: 80px;
+  /*line-height: 15px;*/
+  width:100%;
+  overflow:auto;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align:middle;
+  /*font-family: 'Poiret One', cursive;*/
+  /*font-family: 'Gochi Hand', cursive;*/
+  font-family: 'Orbitron', sans-serif;
+  /*font-family: 'Tangerine', sans-serif;*/
+  z-index:+1;
+}
+
+#nav
+{
+  font-family: 'Orbitron', sans-serif;
+  color: #009ce0;
+  background: #D8D8D8;
+  padding: 0;
+  height:35px;
+  width: 100%;
+  margin: 80px 0 0 0;
+  vertical-align:middle;
+  /*text-transform: uppercase;*/
+  /*font-family: 'Poiret One', cursive;*/
+  /*font-family: FreeSans,sans-serif;*/
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #c0d576;
+  box-shadow: -1px 0.5px 2px 1px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index:+1;
+}
+
+#content
+{
+  overflow:auto;
+  min-height: calc(100vh - 240px);
+  padding-top:150px;
+  padding-bottom: 60px; /* same as footer height*/
+}
+
+footer
+{
+  margin-top: -60px;
+  min-height: 60px;
+  width: 100%;
+  clear: both;
+  color: #D8D8D8;
+  font-size: 12px;
+  font-style: italic;
+  background: #333333;
+  position: relative;
+  padding: 20px 0 10px 0;
+}
+
+
+/*****************************************************************************/
+/*  INSIDE MAIN BLOCKS */
+/*****************************************************************************/
+
+header h1
+{
+  /*text-transform: uppercase;*/
+  color: #009ce0;
+  font-size: 22px;
+  vertical-align:middle;
+  text-shadow: 2px 2px #000000;
+}
+
+header table
+{
+  border: 0px solid black;
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+}
+
+header img
+{
+  max-height: 40px;
+  max-width: 150px;
+  height: auto;
+  width: auto
+}
+
+#nav li
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav ul li ul
+{
+  background: #D8D8D8;
+  position: absolute;
+  display:none;
+  /*overflow: hidden;*/
+}
+
+#nav ul li:hover > ul
+{
+  display: block;
+}
+
+/* submenu */
+#nav ul li ul li a
+{
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.7);
+}
+
+#nav a
+{
+  background: #D8D8D8;
+  text-shadow: 1px 1px #000000;
+  display: inline-block;
+  float: left;
+  height: 35px; /* Same as nav */
+  line-height: 35px; /* Same as nav */
+  padding: 0px 10px 0px 10px;
+  margin: 0 0 0 0;
+  vertical-align:middle;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  position:relative;
+  z-index:100;
+}
+
+#nav a:hover
+{
+  box-shadow: 0px 1px 5px 2px rgba(0, 156, 224, 0.9);
+}
+
+#nav a:active
+{
+  color:#922d1d;
+  opacity: 0.4;
+  box-shadow: 0px 2px 2px 1px rgba(1, 0, 0, 0.7);
+}
+
+#nav img
+{
+  padding-top: 7px;
+  max-height:25px;
+  max-width: 30px;
+}
+
+
+/*#nav ul li ul li a:hover
+{
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.7);
+}*/
+
+footer li
+{
+  list-style-type: none;
+}
+
+footer img
+{
+  max-height:20px;
+}
+
+footer .logos
+{
+  display:none;
+}
+
+a
+{
+  color: #008fe0;
+  text-decoration:none;
+}
+
+a:hover
+{
+  color: #a40000;
+}
+
+a:active
+{
+  color:#922d1d;
+}
+
+.page
+{
+  width: 60%;
+  margin: 0 0 10% 20%;
+  padding: 40px 20px 50px 20px;
+  background: #F2F2F2;
+  box-shadow: -1px 0.5px 5px 1px rgba(0, 0, 0, 0.7);
+  position: relative;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.page ul
+{
+  padding-left: 20px;
+}
+
+form#register
+{
+  background: #E6E6E6;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 60%;
+  margin: 0 0 0 20%;
+  padding: 20px;
+  display: block;
+}
+
+form#register legend {
+  color: #384313;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #c0d576;
+}
+
+form#register fieldset
+{
+  border: none;
+  margin-bottom: 10px;
+}
+form#register fieldset:last-of-type
+{
+  margin-bottom: 0;
+}
+
+form#register label {
+  float: left;
+  font-size: 13px;
+  width: 110px;
+}
+form#register fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+form#register label[for=visa]
+{
+  background-image: url(visa.gif);
+}
+form#register label[for=amex]
+{
+  background-image: url(amex.gif);
+}
+form#register label[for=mastercard]
+{
+  background-image: url(mastercard.gif);
+}
+form#register fieldset fieldset label:hover
+{
+  cursor: pointer;
+}
+
+form#register ol li
+{
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+
+form#register ol ol li 
+{
+  background: none;
+  border: none;
+  float: left;
+}
+
+iframe {
+  display:block;
+  width:100%;
+}
+
+table
+{
+  width:100%;
+}
+
+/*table img
+{
+  max-width:100%;
+  height: auto;
+  width: 100%;
+}*/
+
+#content img
+{
+  max-width: 100%;
+}
+
+/* vim:set sw=2: */

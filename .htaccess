@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{ENV:IP2LOCATION_COUNTRY_SHORT} ^FR$
+RewriteRule ^(.*)$ index_fr.html [L]

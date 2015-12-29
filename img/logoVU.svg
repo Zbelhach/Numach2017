@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 291.5546 86.30792"
+   height="24.358013mm"
+   width="82.283188mm">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-91.166275,-148.78075)"
+     id="layer1">
+    <flowRoot
+       transform="translate(2.2728433,11.869293)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3336"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3338"><rect
+           style="text-align:center;text-anchor:middle;fill:#ffffff"
+           y="141.20461"
+           x="139.40105"
+           height="121.21832"
+           width="279.81229"
+           id="rect3340" /></flowRegion><flowPara
+         id="flowPara3356"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#ffffff">Virtual University</flowPara></flowRoot>    <circle
+       style="fill:#501616;fill-opacity:1"
+       id="circle3378"
+       cx="133.59268"
+       cy="191.20715"
+       r="42.426407" />
+    <circle
+       r="36.36549"
+       cy="191.20715"
+       cx="140.66374"
+       id="path3374"
+       style="fill:#00ffff;fill-opacity:1" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1"
+       id="circle3376"
+       cx="149.75511"
+       cy="190.70207"
+       r="28.284269" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3466"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#501616;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(4.2931484,12.879446)"><flowRegion
+         id="flowRegion3468"><rect
+           id="rect3470"
+           width="279.81229"
+           height="121.21832"
+           x="139.40105"
+           y="141.20461"
+           style="text-align:center;text-anchor:middle;fill:#501616" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif';text-align:center;text-anchor:middle;fill:#501616"
+         id="flowPara3472">Virtual University</flowPara></flowRoot>    <circle
+       r="6.5659914"
+       cy="175.54979"
+       cx="145.96704"
+       id="path3476"
+       style="fill:#501616;fill-opacity:1" />
+  </g>
+</svg>

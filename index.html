@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Workshop or conference title</title>
+    <meta name="description" content="Workshop description">
+    <meta name="Guillaume Dollé" content="SitePoint">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/uds.css">
+    <link rel="stylesheet" href="css/udsmobile.css">
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <!-- HEADER BAR  -->
+    <header>
+      <table>
+        <tr>
+          <td>
+            <h1>Workshop or conference title</h1>
+          </td>
+          <td>
+          </td>
+          <td class="logos" >
+          <!-- LOGO UHA  -->
+          <img alt="Embedded Image" width="250" src="img/logoUHA.svg" />
+          <!-- LOGO UNISTRA  -->
+          <img alt="Embedded Image" width="150" src="img/logoUDS.svg" />
+          </td>
+        </tr>
+      </table>
+    </header>
+
+    <!-- NAVIGATION BAR  -->
+    <div id=nav>
+      <ul>
+        <li>
+          <a href="index.html"><img src="img/flagEN.svg"></a> <!-- current -->
+          <ul>
+            <li><a href="index.html"><img src="img/flagEN.svg" /></a></li>
+            <li><a href="index_fr.html"><img src="img/flagFR.svg" /></a></li>
+          </ul>
+        </li>
+        <li><a class="goto" href="#home" onclick="display('home')">Home</a></li>
+        <li><a class="goto" href="#register" onclick="display('register')">Registration</a></li>
+        <li><a class="goto" href="#program" onclick="display('program')">Program</a></li>
+        <li><a class="goto" href="#map" onclick="display('map')">Map</a></li>
+        <li><a class="goto" href="#contact" onclick="display('contact')">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- PAGE CONTAINER -->
+    <div id=content>
+
+
+      <!-- **************************************************************** -->
+      <div id=home class=page>
+        <p>
+        Welcome on this static HTML page!
+        <br />
+        <br />
+        This was made to provide an easy way to deploy a web page for a
+        workshop or conference. This page follows the
+        <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS
+          principle</a>.  It is simple, dynamic and fast thanks to HTML5+CSS3
+        technology (no PHP!).
+
+        <br /><br />
+        <p style="text-align:center">
+        <img src="img/ufr.jpg"/>
+        <br/>
+        <i>UFR de Strasbourg</i>
+        <br /><br />
+
+        </p>
+        Just put all files into your webserver and update the html file with text
+        and pictures. All tabs (registration, maps, ...) can be updated with
+        your own google account.
+
+        <br/><br/><br/><hr/><br/>
+
+        <p>
+        <h3>Update Registration</h3>
+        You have to create a new <a
+             href="https://docs.google.com/forms">google
+             form</a> using your gmail account.
+           Once created just export it: 
+           <br/>
+           <br/>
+           <ul>
+             <li>click [send]</li>
+             <li>choose [embed]</li>
+             <li>Copy the given line (iframe ... iframe) and replace in the
+               current source code</li>
+           </ul>
+           <br/>
+           People will register on the google form and you'll access all results thanks
+           to google sheet.
+        </p>
+
+        <br/><br/><br/><hr/><br/>
+
+        <p>
+        <h3>Update Program</h3>
+        Go to your <a href=""> google calendar</a> create a new one (left side panel).
+        Fill with the lecturers, add all descriptions, choose the dates...
+        Then just export it:
+        <br/>
+        <br/>
+        <ul>
+          <li>Click the arrow on the agenda (on the left)</li>
+          <li>Click "share the agenda"</li>
+          <li>Click on the tab "Agenda details" (on the top)</li>
+          <li>Copy the lines under "embed this agenda" (iframe...iframe)
+            and replace in this page source code</li>
+        </ul>
+        <br/>
+        <b>NB:</b> You can customize the calendar directly though the google interface or
+        changing the variable at the end of the URL of the given line.
+        (you should mime this current source code)
+        </p>
+
+        <br/><br/><br/><hr/><br/>
+
+        <p>
+        <h3>Update Map</h3>
+        Go to <a href="https://www.google.fr/maps">Google Map</a>. Create the way for
+        incomers (from train station/airport to the institute).
+        <br/>
+        <br/>
+        <ul>
+          <li>Click on "Menu"</li>
+          <li>Click on "Share or embed"</li>
+          <li>Choose "Embed map"</li>
+          <li>Copy the given line (iframe ... iframe) and replace in the
+            current source code below.
+        </ul>
+        <br/>
+        </p>
+
+        <br/><br/><br/><hr/><br/>
+        <p>
+        <b>Internationalization:</b> You can create another language page as made
+        for French with <b><i>index_fr.html</i></b>. Copy paste this code, update
+        the language menu, translate and modifify the <b><i>.htaccess</i></b> file adding
+        a redirection for the new language.
+        </p>
+
+        Now you're good to go!
+
+      </div>
+      <!-- **************************************************************** -->
+
+
+
+      <!-- **************************************************************** -->
+      <div id=register class=page>
+        <iframe id="googleform" src="https://docs.google.com/forms/d/1ggUs2VgopAqzbB-mdoFwL6CI5hzDH0L0nH2ypaeevOA/viewform?embedded=true" scrolling='yes' width="760" height="700px" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+      </div>
+      <!-- **************************************************************** -->
+
+
+
+      <!-- **************************************************************** -->
+      <div id=program class=page>
+          <!-- Customize the calendar then add &dates=YYYMMDD/YYYMMDD you want to display -->
+          <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=mb2cp81ih2h8i04me93bj9315o%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Europe%2FParis&amp;dates=20151210%2F20151230" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <!-- **************************************************************** -->
+
+
+
+      <!-- **************************************************************** -->
+      <div id=map class=page>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5278.931892524773!2d7.753483279679258!3d48.5817766604402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x4796c849e485d7df%3A0x5096646b9ea1c7d!2sGare+Centrale%2C+Strasbourg!3m2!1d48.5857927!2d7.7355256!4m5!1s0x4796c8fe50b3eb29%3A0x66aa010dad7acb60!2sInstitut+de+Recherche+Math%C3%A9matique+Avanc%C3%A9e%2C+7+Rue+Ren%C3%A9+Descartes%2C+67000+Strasbourg%2C+France!3m2!1d48.580455199999996!2d7.7629861!5e0!3m2!1sfr!2sfr!4v1449763173803" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <br/>
+          Longez sous la verriere de la gare vers la gauche. Prenez le <b>Tram C</b> direction
+           Neuhof Rodolphe Reuss et descendez à l'<b>arrêt Université</b>.
+      </div>
+      <!-- **************************************************************** -->
+
+
+
+      <!-- **************************************************************** -->
+      <div id=contact class=page>
+        <h2 style="text-align:center">Organizers</h2>
+        <!-- 192x192 pictures -->
+        <table>
+          <tr>
+            <td style="width:40%">
+              <!-- PHOTO 192X192 -->
+              <img src="img/user.svg" alt="user1" />
+            </td>
+            <td style="width:60%;">
+              <ul>
+                <li>Name Firstname</li>
+                <li>Professor</li>
+                <li>Institute</li>
+                <li>Department</li>
+                <li>Email</li>
+                <li>Phone</li>
+                <li>Fax</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width:40%">
+              <!-- PHOTO 192X192 -->
+              <img src="img/user.svg" alt="user2"/>
+            </td>
+            <td style="width:60%;">
+              <ul>
+                <li>Name Firstname</li>
+                <li>Professor</li>
+                <li>Institute</li>
+                <li>Department</li>
+                <li>Email</li>
+                <li>Phone</li>
+                <li>Fax</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- **************************************************************** -->
+    </div>
+
+
+    <!-- FOOTER BAR  -->
+    <footer>
+      <div class="logos">
+          <!-- LOGO UHA  -->
+          <img alt="Embedded Image" src="img/logoUHA.svg" />
+          <!-- LOGO UNISTRA  -->
+          <img alt="Embedded Image" src="img/logoUDS.svg" />
+          <br/><br/>
+          <hr style="opacity:0.05"/>
+      </div>
+      <table>
+        <tr>
+          <td style="width:30%">
+          <ul>
+            <li>Version 1.0</li>
+            <li>Credits G.Dollé</li>
+          </ul>
+          </td>
+          <td style="width:30%"></td>
+          <td style="width:30%;text-align:right">
+            <a href="http://www.mozilla.org/firefox/"><img src="img/logoFirefox.svg" alt="firefox"/></a>
+            <a href="https://www.chromium.org/"><img src="img/logoChromium.svg" alt="chromium"/></a>
+            <a href="http://www.apple.com/fr/safari/"><img src="img/logoSafari.svg" alt="safari"/></a>
+            <a href="https://www.android.com/"><img src="img/logoAndroid.svg" alt="android"/></a>
+            <br/>
+            Web browsers compatibility
+          </td>
+          </tr>
+      </table>
+    </footer>
+
+    <script src="js/functions.js"></script>
+
+  </body>
+</html>
+
+<!-- vim:set sw=2 ft=html : -->
