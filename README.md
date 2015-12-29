@@ -20,3 +20,7 @@ Just copy all files in the webserver public (default often "~/public_html/") dir
 You might have to update the `.htaccess` file to redirect to the good language translation.
 
 Note that you can publish directly in [Github Page](https://pages.github.com/).
+
+1. Fork this repository
+2. Edit to create your content
+3. create a `gh-pages` branch (note that the .htaccess won't work)
