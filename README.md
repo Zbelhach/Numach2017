@@ -24,6 +24,7 @@ Note that you can publish directly in [Github Page](https://pages.github.com/).
 1. Fork this repository
 2. Edit to create your content
 3. create a `gh-pages` branch (note that the .htaccess won't work)
+4. Update the gh-pages branch to update automatically your website
 
 Here's the example for this repository:
 http://gdolle.github.io/workshop_website
