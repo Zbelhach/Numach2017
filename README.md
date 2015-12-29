@@ -1,10 +1,17 @@
 # workshop_website
 
 HTML static page to create (fastly) a website for a workshop.
-
+The aim is not to use server side code (php, asp, ...) and thus rely
+heavily on google applications (in particular google form,
+google calendar and google map).
 
 # Tree
 
+File|   Description
+--- | ---
+index.html | main html file.
+index_fr.html | french translation, a copy of index translated.
+.htaccess | Redirect to good language depending on IP, default EN.
 
 
 # Install
