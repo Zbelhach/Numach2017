@@ -16,4 +16,7 @@ index_fr.html | french translation, a copy of index translated.
 
 # Install
 
-Just copy all files in the webserver public (default often "~/public_html/") directory.
+Just copy all files in the webserver public (default often "~/public_html/") directory. 
+You might have to update the `.htaccess` file to redirect to the good language translation.
+
+Note that you can publish directly in [Github Page](https://pages.github.com/).
