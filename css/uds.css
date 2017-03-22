@@ -134,6 +134,18 @@ header h1
   text-shadow: 2px 2px #000000;
 }
 
+header h2
+{
+    /*text-transform: uppercase;*/
+    color: #009ce0;
+    font-size: 22px;
+    vertical-align:middle;
+    text-shadow: 2px 2px #000000;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+
 header table
 {
   border: 0px solid black;
